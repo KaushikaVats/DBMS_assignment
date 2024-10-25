@@ -1,0 +1,40 @@
+//answer1
+A database is a structured collection of data that allows for storing, organizing, and managing information in a way that's easy to access and manipulate. It serves as a central place where data can be stored efficiently, retrieved quickly, and updated as needed. Databases are commonly used in various applications, from websites and mobile apps to big enterprises.
+a database is essential when we
+ need to handle large, complex, or rapidly growing data sets in an organized, secure, and efficient way, especially if that data requires regular updates and fast retrieval.
+//answer2
+Since file-based systems don’t enforce a structured data format, the same data can be stored in multiple files, leading to duplication. If updates occur in one file but not in the others, inconsistencies arise, resulting in inaccurate data.
+//answer3
+DBMS stands for "DataBase Management System".It is a software that allows user to create ,store,retrieve  and delete data.
+Needs of DBMS:
+1.Reduces Redundancy
+2. Efficient Data Sharing
+3. Efficient data storage
+//answer4
+5 challenges of file based storage are:
+1.It increases Redundancy
+2.Security  Issues
+3.Inefficient data retrieval and so it hampers the decision making
+4.Limited data sharing and access control: sharing data between applications and users is difficult.
+5. Backups has to be done manually in file based storage
+//answer5
+
+Relational DBMS (RDBMS)
+A relational database contains multiple tables of data that are related by key fields. Relational databases are more flexible than flat file structures and allow users to create, update, read, and delete data. 
+Hierarchical DBMS
+A hierarchical database organizes data in a tree-like structure, with each record represented as a node in the tree. 
+Network DBMS
+A network database is similar to a hierarchical database, but it allows two-directional relationships by connecting child records with multiple parent records. 
+Object-Oriented DBMS (OODBMS)
+Object-oriented databases allow associations between objects to persist, which makes it fast and powerful to query data across complex relationships. 
+//answer 6
+Data modeling is the process of creating a visual representation of data structures, their relationships, and attributes within an information system, essentially acting as a blueprint for how data is organized, stored, and accessed within a business
+types of data modelling:
+Conceptual Model
+Logical Model
+Physical Model
+//answer7
+1. Internal Schema 
+Description: The internal schema is the lowest level in the three-schema architecture. It defines how data is physically stored on storage media, focusing on file organization, storage structures, and indexing methods. This level is concerned with the actual storage details, such as data compression, encryption, and access paths.
+2.Conceptual Schema (Logical Level)
+Description: The conceptual schema represents the entire organization’s view of the data. It defines what data is stored and the relationships between different data elements, but it is not concerned with how data is stored. This level includes all entities, attributes, and relationships and enforces business rules, integrity constraints, and security.
